@@ -20,12 +20,14 @@ a {
   /* you can give numbers also range is 100-900 */
 }
 #p2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   /* first tries to apply  verdana else geneva else tahoma else san-serif  this called "fall-back mechanism"*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 #p3 {
   font-weight: bolder;
+  /* font size  */
+  font-size: 10px;
 }
 #p4 {
   font-weight: lighter;
