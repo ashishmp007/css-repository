@@ -1,0 +1,16 @@
+h3{
+    color: blue;
+    /* color mhnje forecolor jo front la asto to color */
+    background-color: black;
+    /* background mhnje jo back la asto to color */
+}
+h2{
+    /* hex value */
+    /* to give hex value first give #  */
+    /* first 2 numbers for red next 2 for green next 2 for blue which gives rgb color */
+    color:#ff0000;
+    background-color: #00ff00;
+}
+h1{
+    color: #0000ff;
+}

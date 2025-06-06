@@ -1,0 +1,23 @@
+/* 1.universal selector */
+/* to all tags which are in body tag */
+*
+{
+    color: red;
+}
+/* 2.eliment selector */
+/* eliment specific */
+h1
+{
+    color:brown;
+}
+/* 3.id selector */
+/* id denoated as # */
+#identity
+{
+    background-color: black;
+}
+/* 4.class selector */
+/* class denoted as . u cant give space between class name give _ or - between name  */
+ .css_class{
+    color:blueviolet;
+}
