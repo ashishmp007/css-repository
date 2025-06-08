@@ -48,5 +48,9 @@ a:visited {
 #line{
   /* line-height means text height je aapan text lihtoy tya line chi height kiti pahije*/
   line-height: 10px ;
-  /* default height sathi normal type karaych */
+  /* default height sathi line-height: normal; type karaych */
+}
+#transform{
+  /* to change text in uppercase,lowercase, capitalize(means each letter of word is in captial , none*/
+  text-transform: uppercase;
 }
