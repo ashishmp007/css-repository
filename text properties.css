@@ -12,7 +12,20 @@ h2 {
 h3 {
   text-decoration: line-through;
 }
-a {
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
   text-decoration: none;
 }
 #p1 {
@@ -27,8 +40,13 @@ a {
 #p3 {
   font-weight: bolder;
   /* font size  */
-  font-size: 10px;
+  font-size: 30px;
 }
 #p4 {
   font-weight: lighter;
+}
+#line{
+  /* line-height means text height je aapan text lihtoy tya line chi height kiti pahije*/
+  line-height: 10px ;
+  /* default height sathi normal type karaych */
 }
