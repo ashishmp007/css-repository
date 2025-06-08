@@ -1,0 +1,59 @@
+div{
+    margin: 25px;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+}
+#dis1{
+    background-color: red;
+    display: block;
+    /* it blocks all space like div tag and it gives margin and padding from all sides*/
+}
+#dis2{
+    background-color:green;
+    display: inline;
+    /* it blocks required space like span tag and it gives margin and padding to right and left*/
+}
+#dis3{
+    background-color: blue;
+    display: inline-block;
+    /* most preferrable property */
+    /* it blocks required space like span but it gives margin and padding from all sides */
+}
+#dis4{
+    background-color: blueviolet;
+    display: none;
+    /* this property vanishes the element and the space which is acquired by that element */
+}
+span{
+    margin: 25px;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+}
+#span1{
+    background-color: red;
+}
+#span2{
+    background-color:green ;
+    visibility: hidden;
+    /* this property vanishes the element but the space acquired by element still intact */
+}
+#span3{
+    background-color: blue;
+}
+#opa1{
+    background-color: rgba(255, 0, 0, 0.25);
+    /* alpha channel */
+    /* it gives shade(opacity) of color and its range between 0to1 */
+    display: inline-block;
+    
+}
+#opa2{
+    background-color: rgba(0, 255, 0, 0.50);
+    display: inline-block;
+}
+#opa3{
+    background-color: rgba(0, 0, 255, 0.75);
+    display: inline-block;
+}

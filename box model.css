@@ -1,0 +1,20 @@
+/* box model consist of height, width, border, padding, margin */
+div {
+  height: 100px;
+  width: 100px;
+  /* border-radius: 2px;
+  border:dotted;
+  border-color: teal; */
+  border: 2px solid black;
+  /* if your height and width are same and you want give circle border then give border-radius=50px or 50% */
+  padding: 25px;
+  /* we can give padding-right,padding-left,padding-top,padding-bottom */
+  /* you can give all side padding in same padding as well
+  padding: 1px 2px 3px 4px  and it starts from clockwise direction like TRBL*/
+  
+  margin: 30px;
+  /* we can give margin-right,margin-left,margin-top,margin-bottom */
+  /* you can give all side margin in same margin as well
+  margin: 1px 2px 3px 4px  and it starts from clockwise direction like TRBL*/
+    
+}
