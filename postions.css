@@ -1,0 +1,74 @@
+div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+#static {
+  background-color: blue;
+  position: static;
+  /* no property apply on static even z */
+  /* default position */
+}
+#relative {
+  background-color: blueviolet;
+  position: relative;
+  top: 20px; /* it will go down 20px from his original position */
+  left: 20px; /* it will go to right 20px from his original position */
+  /* relative to itself */
+}
+#absolute {
+  background-color: brown;
+  position: absolute;
+  top: 10px; /* it will follow body tag  */
+  left: 20px; /* it will follow body tag  */
+  /* it is removed from normal flow */
+  /* it follows closest non-static positioned ancestor(parent) html tag in this case it follows body tag */
+}
+#fixed {
+  background-color: chartreuse;
+  position: fixed;
+  bottom: 0; /* stick to bottom */
+  width: 100%;
+  left: 0; /* acquire all left width of browser */
+  /* fixed based on body and body gives by default padding and margin
+  becauze of that it will take some margin and padding */
+  /* it is removed from normal flow */
+  /* it relative to browser */
+}
+#sticky {
+  background-color: magenta;
+  position: sticky;
+  top: 0;   /*it come with page while scrolling and locks to top */
+  bottom: 0;   /*it come with page while scrolling and locks to bottom */
+  width: 100%;
+  /* it is based on users scroll position */
+}
+#z-index1{
+    background-color: chocolate;
+    position: relative;
+    z-index: 1;
+}
+#z-index2{
+    background-color: green;
+    position: relative;
+    right: 40px;
+    bottom: -20px;
+    z-index: 2;
+    /* it decides stack level of elements means which elements see front n which is in back
+    positive number shows upper side and negative numbers shows lower or bottom */
+}
+#z-index3{
+    background-color: crimson;
+    position: relative;
+    right: 60px;
+    bottom: -40px;
+    z-index: 3;
+}
+#z-index4{
+    background-color: blueviolet;
+    position: relative;
+    right: 80px;
+    bottom: -60px;
+    z-index: 4;
+}

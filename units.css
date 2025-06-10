@@ -1,0 +1,42 @@
+#percent1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+#percent2{
+    height: 50px;
+    width: 50%; /* 50% means 50 px from parent width */
+    background-color: yellow;
+    /* % unit is realtive to parent element */
+}
+#em1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 20px;
+}
+#em2{
+    height: 50px;
+    background-color: yellow;
+    font-size: 2em; /* em doubles the font size of parent element */
+    width: 1em; /* 1em means 5 times of font size of own element itself */
+    /* em unit is realtive to parent font size for properties like font size and
+    font size of element itself in case of properties like width  */
+}
+#rem1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+#rem2{
+    height: 50px;
+    width: 50rem; /* it take 5 times of root element means of html tag it gives 16px then rem will take 800 */
+    background-color: yellow;
+    /* rem unit is realtive to root element means html */
+}
+#viewport{
+    height: 100vh; /* it takes all height of browser */
+    width: 100vw;  /* it takes all width of browser */
+    background-color: green;
+    /* viewport-height and viewport-width */
+}
