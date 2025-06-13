@@ -1,0 +1,7 @@
+div{
+    background-image: url(images/car1.jpg);
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 0;
+}

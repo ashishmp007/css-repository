@@ -1,0 +1,23 @@
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#outer{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}

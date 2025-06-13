@@ -1,0 +1,26 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+}
+@media(width:700px) /* @700px it will change the color of all divs */
+{
+    div{
+        background-color: blueviolet
+        ;
+    }
+}
+/* @media(min-width:500px) 
+/* till 500px it will be red color below 500 it will be teal*/
+/*{
+    div{
+        background-color: red;
+    }
+} */
+@media(max-width:800px)
+/* till 800px it will be gold after 800px it will be teal */
+{
+    div{
+        background-color: gold;
+    }
+}

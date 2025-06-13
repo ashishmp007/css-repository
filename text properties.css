@@ -54,3 +54,7 @@ a:visited {
   /* to change text in uppercase,lowercase, capitalize(means each letter of word is in captial , none*/
   text-transform: uppercase;
 }
+li{
+  /* to remove style of any type of list */
+  list-style-type: none;
+}

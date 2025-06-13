@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+div {
+  height: 50px;
+  width: 150px;
+  display: inline-block;
+  border: 2px solid black;
+}
+#container {
+  width: 600px;
+  height: 600px;
+  display: flex; /* after writing display: flex it will shift cobntainer to left by default it follow row */
+  flex-direction: row; /*decides the main axis */ /* default property */ /* flow from left to right & elements to left side*/
+  justify-content: center; /* justify-content changes whole elements direction & flow will be as it is*/
+  flex-wrap: wrap; /* it wraps all flex element in different manners using property */
+  align-items: center; /* alignment along the cross axis */
+  align-content: center;
+  /* alignment of space between & around content along cross axis */
+  /* flex-direction arranges items in a row or column and tries to fit them inside the container. If the content is too big,
+  items can overflow because flexbox doesn’t shrink content automatically. You need extra CSS to keep everything inside. */
+  /* flex-direction: row-reverse; /* reverse the order and place it to right side */
+  /* flex-direction: column; */ /* it will align the elements vertically and main axis will be from top to bottom*/
+  /* flex-direction: column-reverse; */ /* it will align the elements vertically and main axis will be from bottom to topf*/
+}
+#box1 {
+  background-color: aqua;
+}
+#box2 {
+  background-color: blueviolet;
+  height: 200px;
+}
+#box3 {
+  background-color: chocolate;
+  height: 70px;
+}
+#box4 {
+  background-color: darkmagenta;
+}
+#box5 {
+  background-color: teal;
+}

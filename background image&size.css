@@ -7,4 +7,6 @@ div {
 #bgimg1{
     background-image: url(images/bike.jpg);
     background-size: cover;
+    background-repeat: no-repeat;     /* if you used contain then image repeat for that */
+    /* background size is used to set image and attributes are cover, contain, auto & we prefer cover */
 }
